@@ -1,0 +1,54 @@
+/* 1. Set the background color like the track at Killarney */
+body {
+  background-color: #111111; /* Dark asphalt black */
+  color: white;
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+/* 2. Style and center our main titles */
+h1 {
+  color: orange;
+  text-align: center;
+}
+
+.subtitle {
+  color: gray;
+  text-align: center;
+}
+
+h2 {
+  color: orange;
+  text-align: center;
+}
+
+h3 {
+  color: orange;
+}
+
+/* 3. Handling the Gusheshe images */
+
+/* First image (Shay Imoto) and third image (Damon) just sit normally */
+.img-bad {
+  width: 300px;
+}
+
+.img-damon {
+  width: 300px;
+}
+
+/* Second image: THIS ONE STAYS CENTERED ON THE PAGE */
+/* The Khan Academy trick: Change it to a 'block' element so it takes up the whole row, */
+/* then set left and right margins to 'auto' so it pushes evenly from both sides. */
+.img-sam {
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px solid orange; /* Adds a nice orange frame around the center shot */
+}
+
+/* 4. Push the bullet points in so they don't get cut off on the edge */
+ul {
+  padding-left: 40px;
+}
